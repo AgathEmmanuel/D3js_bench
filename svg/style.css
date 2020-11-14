@@ -1,0 +1,25 @@
+body{
+    /*font-size: 2em;*/
+    /*font-size: 2pt;*/
+    /*font-size: 2px;*/
+    margin: 0px;
+    overflow: hidden;
+    font-size: 3em;
+
+    font-family: monospace;
+
+
+}
+
+
+.lines{
+    stroke: black;
+    stroke-width:10;
+}
+
+.lines path{
+    stroke: blue;
+    stroke-linejoin: round;
+
+
+}

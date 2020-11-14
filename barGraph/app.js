@@ -1,4 +1,4 @@
-/*console.log(d3)*/
+console.log(d3)*/
 
 const DUMMY_DATA=[
     {id:'d1',value:10,region:'USA'},

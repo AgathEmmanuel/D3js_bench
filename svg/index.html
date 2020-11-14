@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cars Report
+        </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    </head>
+    <body>
+        <h1>Cars Report</h1>
+        <ul>
+            <li>2012 Nissan Leaf: $1800</li>
+            <li>2013 Ford Leaf: $1900</li>
+            <li>2014 Oud Leaf: $1700</li>
+            
+        </ul>
+        <h1>Shapes in SVG(Scalable Vector Graphics</h1>
+        <svg height="1060" width="500">
+            <circle cx="400" cy="100" r="100"></circle>
+            <rect x="100" y="25" width="50" height="50"></rect>
+            <rect x="100" y="95" width="50" height="50" fill="red"></rect>
+            <circle cx="400" cy="300" r="100" fill="red"></circle>
+
+            <g transform="translate(0,300)" fill="blue" stroke="black">
+            <rect x="100" y="95" width="50" height="50" fill="red" stroke-width="5"></rect>
+            <circle cx="400" cy="300" r="100" fill="red"></circle>
+            </g>
+
+            <g class="lines" transform="translate(0,700)" >
+            <line x1="200" y1="200" x2="280" y2="280" stroke="black" stroke-width="15"></line>
+            <path fill="none" d="M300 280 L350 200 L400 250 L450 230"></path>
+            </g>
+        </svg>
+    </body>
+</html>
